@@ -70,7 +70,7 @@ year1.selectByValue("1994");
 // Step 12: Select the radio button "Female" 
 //            ( A normal click will do for this step) 
 
-driver.findElement(By.className("_8esa")).click();
+driver.findElement(By.xpath("(//input[@class='_8esa'])[1]")).click();
 
 	}
 
